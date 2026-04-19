@@ -1,0 +1,38 @@
+# Project-local instructions
+AGENTS.md
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python caches / artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py,cover
+
+# Tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build output
+dist/
+build/
+*.spec
+
+# Local runtime data
+captures/
+vision_debug/
+*.sqlite
+*.db
+*.log
+
+# Editor / OS noise
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
